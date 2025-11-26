@@ -1,20 +1,20 @@
 aiosmtplib==5.0.0
 alembic==1.15.2
-# apturl==0.5.2
+apturl==0.5.2
 astroid==2.9.3
 asttokens==2.0.5
 bcrypt==3.2.0
 beautifulsoup4==4.10.0
 blinker==1.9.0
-Brlapi==0.8.3
+# Brlapi==0.8.3
 certifi==2020.6.20
 cffi==1.17.1
 chardet==4.0.0
 click==8.1.8
 colorama==0.4.4
-command-not-found==0.3
+# command-not-found==0.3
 cryptography==3.4.8
-cupshelpers==1.0
+# cupshelpers==1.0
 dbus-python==1.2.18
 defer==1.0.6
 distlib==0.3.9
@@ -49,7 +49,7 @@ jedi==0.18.0
 jeepney==0.7.1
 Jinja2==3.1.6
 keyring==23.5.0
-language-selector==0.1
+# language-selector==0.1
 launchpadlib==1.10.16
 lazr.restfulclient==0.14.4
 lazr.uri==1.0.6
@@ -102,9 +102,9 @@ pyparsing==2.4.7
 pyRFC3339==1.1
 pyserial==3.5
 pytest==8.3.4
-python-apt==2.4.0+ubuntu4
+# python-apt==2.4.0+ubuntu4
 python-dateutil==2.9.0.post0
-python-debian==0.1.43+ubuntu1.1
+# python-debian==0.1.43+ubuntu1.1
 python-dotenv==1.1.0
 pytz==2022.1
 pyxdg==0.27
@@ -228,10 +228,10 @@ types-Werkzeug==1.0
 types-xxhash==2.0
 typing_extensions==4.12.2
 tzdata==2025.1
-ubuntu-drivers-common==0.0.0
-ubuntu-pro-client==8001
-ufw==0.36.1
-unattended-upgrades==0.1
+# ubuntu-drivers-common==0.0.0
+# ubuntu-pro-client==8001
+# ufw==0.36.1
+# unattended-upgrades==0.1
 urllib3==1.26.5
 usb-creator==0.3.7
 virtualenv==20.29.2
