@@ -14,7 +14,7 @@ def create_app():
     CORS(app, resources={r"/*": {"origins": "*"}})
 
     # -------- Database --------
-    app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://nfc_xe7v_user:5sl4cDyOouQldaPvT9Znxx4yEaAN0jSr@dpg-d4ipajnpm1nc73cru6f0-a.render.com:5432/nfc_xe7v"
+    app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://nfc:NFC123@localhost:5432/postgres"
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     app.config['SECRET_KEY'] = "your_secret_key_here"
 

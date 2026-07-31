@@ -1,0 +1,7 @@
+tunnels:
+  flask-backend:
+    addr: 5000  # Port where your Flask backend is running
+    proto: http
+  frontend-app:
+    addr: 3000  # Port where your frontend is running
+    proto: http

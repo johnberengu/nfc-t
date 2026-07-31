@@ -62,7 +62,7 @@ export function VisitorCheckIn({ onBack, onSubmit }: VisitorCheckInProps) {
     };
 
     try {
-      const response = await fetch('http://127.0.0.1:5000/checkin/', {
+      const response = await fetch('http://10.188.68.75:5000/checkin/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)

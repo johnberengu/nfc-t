@@ -125,7 +125,7 @@ function App() {
   useEffect(() => {
     async function fetchVisitors() {
       try {
-        const response = await fetch('http://127.0.0.1:5000/staffdashboard/checkins', {
+        const response = await fetch('http://10.188.68.75:5000/staffdashboard/checkins', {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json'
@@ -183,7 +183,7 @@ function App() {
     }
 
     try {
-      const response = await fetch(`http://127.0.0.1:5000/staffdashboard/checkins/${id}`, {
+      const response = await fetch(`http://10.188.68.75:5000/staffdashboard/checkins/${id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

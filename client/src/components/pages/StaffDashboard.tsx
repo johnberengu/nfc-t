@@ -90,10 +90,10 @@ export function StaffDashboard({ onBack, visitors, onUpdateVisitor, currentStaff
   useEffect(() => {
     const fetchStats = async () => {
       try {
-        const pendingRes = await fetch('http://127.0.0.1:5000/staffdashboard/stats/pending');
-        const approvedRes = await fetch('http://127.0.0.1:5000/staffdashboard/stats/approved-today');
-        const insideRes = await fetch('http://127.0.0.1:5000/staffdashboard/stats/inside');
-        const declinedRes = await fetch('http://127.0.0.1:5000/staffdashboard/stats/declined-today');
+        const pendingRes = await fetch('http://10.188.68.75:5000/staffdashboard/stats/pending');
+        const approvedRes = await fetch('http://10.188.68.75:5000/staffdashboard/stats/approved-today');
+        const insideRes = await fetch('http://10.188.68.75:5000/staffdashboard/stats/inside');
+        const declinedRes = await fetch('http://10.188.68.75:5000/staffdashboard/stats/declined-today');
 
         if (
           pendingRes.ok &&
